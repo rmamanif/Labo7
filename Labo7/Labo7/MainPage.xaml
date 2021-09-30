@@ -5,7 +5,7 @@
 
     <StackLayout>
         <StackLayout>
-            
+            <Button x:Name="Item3" Text="QR Read"></Button>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
             <StackLayout>

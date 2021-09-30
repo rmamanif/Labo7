@@ -23,6 +23,10 @@ namespace Labo7
             {
                 await Navigation.PushAsync(new BatteryDemo());
             };
+            Item3.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new Page1());
+            };
 
 
         }
